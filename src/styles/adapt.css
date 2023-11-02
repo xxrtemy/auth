@@ -1,0 +1,621 @@
+@media (max-width: 1920px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        margin: 0px 450px;
+    }
+    .heading{
+        margin-bottom: 100px;
+        font-size: 35px;
+    }
+    .btn{
+        font-size: 24px;
+        padding: 30px 100px;
+    }
+    .btn__log{
+        padding: 30px 100px;
+    }
+    .btn__reg{
+        padding: 30px 100px;
+    }
+    .modal__btn{
+        padding: 0px 12px;
+        font-size: 40px;
+    }
+    .reg__content{
+        gap: 30px;
+    }
+    .title{
+        font-size: 30px;
+    }
+    .reg__form{
+        gap: 10px;
+    }
+    .tel__content{
+        gap: 10px;
+    }
+    .tel__text{
+        font-size: 24px;
+    }
+    .tel__input{
+        padding: 18px 140px 18px 50px;
+        font-size: 24px;
+        background-size: 20px 20px;
+    }
+    .form__password{
+        gap: 15px;
+        font-size: 24px;
+    }
+    .pass__text{
+        font-size: 24px;
+    }
+    .pass__input,
+    .pass__input::after,
+    .pass__input::before
+    {
+        padding: 18px 140px 18px 50px;
+        background-position: left 20px center;
+        background-repeat: no-repeat;
+        background-size: 20px 20px;
+        font-size: 24px;
+    }
+    .pass__input--error{
+        color:crimson;
+        font-weight: 500;
+        margin: 0;
+        font-size: 20px;
+    }
+    .btn__submit{
+        margin-top: 15px;
+        font-size: 24px;
+    }
+    .show__cpass{
+        bottom: 22px;
+    }
+    .show__pass{
+        bottom: 22px;
+    }
+    .log__content{
+        gap: 30px;
+    }
+    .dload__tittle{
+        font-size: 40px;
+    }
+    .dload__text{
+        font-size: 24px;
+    }
+    .profile_img{
+        width: 200px;
+        height: 200px;
+    }
+    .dload__btn span{
+        font-size: 24px;
+    }
+}
+@media (max-width: 1440px){
+    .container{
+        margin: 0px 300px;
+    }
+    .heading{
+        margin-bottom: 70px;
+        font-size: 30px;
+    }
+    .btn{
+        font-size: 20px;
+        padding: 25px 100px;
+    }
+    .btn__log{
+        padding: 25px 100px;
+    }
+    .btn__reg{
+        padding: 25px 100px;
+    }
+}
+@media (max-width: 1024px){
+    .container{
+        margin: 0px 200px;
+    }
+    .heading{
+        margin-bottom: 50px;
+        font-size: 28px;
+    }
+    .btn{
+        font-size: 20px;
+        padding: 20px 80px;
+    }
+    .btn__log{
+        padding: 20px 80px;
+    }
+    .btn__reg{
+        padding: 20px 80px;
+    }
+    .modal__btn{
+        padding: 0px 10px;
+        font-size: 35px;
+    }
+    .reg__content{
+        gap: 20px;
+    }
+    .title{
+        font-size: 24px;
+    }
+    .reg__form{
+        gap: 10px;
+    }
+    .tel__content{
+        gap: 10px;
+    }
+    .tel__text{
+        font-size: 20px;
+    }
+    .tel__input{
+        padding: 15px 120px 15px 50px;
+        font-size: 20px;
+        background-size: 18px 18px;
+    }
+    .form__password{
+        gap: 15px;
+        font-size: 20px;
+    }
+    .pass__text{
+        font-size: 20px;
+    }
+    .pass__input,
+    .pass__input::after,
+    .pass__input::before
+    {
+        padding: 15px 120px 15px 50px;
+        background-position: left 20px center;
+        background-repeat: no-repeat;
+        background-size: 18px 18px;
+        font-size: 20px;
+    }
+    .pass__input--error{
+        color:crimson;
+        font-weight: 500;
+        margin: 0;
+        font-size: 18px;
+    }
+    .tel__input--error{
+        font-size: 18px;
+    }
+    .btn__submit{
+        margin-top: 10px;
+        font-size: 20px;
+    }
+    .show__cpass{
+        bottom: 18px;
+    }
+    .show__pass{
+        bottom: 18px;
+    }
+    .log__content{
+        gap: 30px;
+    }
+    .dload__tittle{
+        font-size: 30px;
+    }
+    .dload__text{
+        font-size: 20px;
+    }
+    .profile_img{
+        width: 200px;
+        height: 200px;
+    }
+    .dload__btn span{
+        font-size: 20px;
+    }
+}
+@media (max-width: 768px){
+    .container{
+        margin: 0px 150px;
+    }
+    .heading{
+        margin-bottom: 50px;
+        font-size: 24px;
+    }
+    .btn{
+        font-size: 18px;
+        padding: 15px 80px;
+    }
+    .btn__log{
+        padding: 18px 60px;
+    }
+    .btn__reg{
+        padding: 18px 60px;
+    }
+    .reg__content{
+        gap: 20px;
+    }
+    .title{
+        font-size: 20px;
+    }
+    .reg__form{
+        gap: 10px;
+    }
+    .tel__content{
+        gap: 10px;
+    }
+    .tel__text{
+        font-size: 16px;
+    }
+    .tel__input{
+        padding: 13px 70px 13px 50px;
+        font-size: 16px;
+        background-size: 14px 14px;
+    }
+    .form__password{
+        gap: 15px;
+        font-size: 16px;
+    }
+    .pass__text{
+        font-size: 16px;
+    }
+    .pass__input,
+    .pass__input::after,
+    .pass__input::before
+    {
+        padding: 13px 70px 13px 50px;
+        background-size: 14px 14px;
+        font-size: 16px;
+    }
+    .pass__input--error{
+        font-size: 14px;
+    }
+    .tel__input--error{
+        font-size: 14px;
+    }
+    .btn__submit{
+        margin-top: 10px;
+        font-size: 16px;
+    }
+    .show__cpass{
+        width: 18px;
+        height: 18px;
+        bottom: 14px;
+        background-size: 18px 18px;
+    }
+    .show__pass{
+        width: 18px;
+        height: 18px;
+        bottom: 14px;
+        background-size: 18px 18px;
+    }
+    .log__content{
+        gap: 20px;
+    }
+    .dload__tittle{
+        font-size: 24px;
+    }
+    .dload__text{
+        font-size: 16px;
+    }
+    .profile_img{
+        width: 150px;
+        height: 150px;
+    }
+    .dload__btn span{
+        font-size: 16px;
+    }
+    .dload__btn{
+        background:  linear-gradient(270deg, rgba(104, 109, 224, 1),rgba(72, 52, 212, 1));
+        filter: drop-shadow(0px 4px 20px rgba(104, 109, 224, 0.5));
+    }
+}
+@media (max-width: 425px){
+    .container{
+        margin: 0px 50px;
+    }
+    .heading{
+        margin-bottom: 50px;
+        font-size: 20px;
+    }
+    .modal__content {
+        padding: 10px;
+    }
+    .log__form {
+        gap: 5px;
+    }
+    .btn{
+        font-size: 16px;
+        padding: 5px 40px;
+        margin-bottom: 20px;
+    }
+    .btn__log{
+        padding: 13px 50px;
+    }
+    .btn__reg{
+        padding: 13px 50px;
+    }
+    .reg__content{
+        gap: 10px;
+    }
+    .title{
+        font-size: 14px;
+    }
+    .reg__form{
+        gap: 5px;
+    }
+    .tel__content{
+        gap: 5px;
+    }
+    .tel__text{
+        font-size: 10px;
+    }
+    .tel__input{
+        padding: 8px 25px 8px 20px;
+        font-size: 10px;
+        background-size: 7px 7px;
+        background-position: left 10px center;
+    }
+    .form__password{
+        gap: 5px;
+        font-size: 10px;
+    }
+    .pass__text{
+        font-size: 10px;
+    }
+    .form__password{
+        gap: 5px;
+        font-size: 10px;
+    }
+    .pass__input,
+    .pass__input::after,
+    .pass__input::before
+    {
+        padding: 8px 25px 8px 20px;
+        font-size: 10px;
+        background-size: 7px 7px;
+        background-position: left 10px center;
+    }
+    .pass__input--error{
+        font-size: 8px;
+    }
+    .tel__input--error{
+        font-size: 8px;
+    }
+    .btn__submit{
+        font-size: 10px;
+    }
+    .show__cpass{
+        width: 10px;
+        height: 10px;
+        bottom: 10px;
+        right: 15px;
+        background-size: 10px 10px;
+    }
+    .show__pass{
+        width: 10px;
+        height: 10px;
+        bottom: 10px;
+        right: 15px;
+        background-size: 10px 10px;
+    }
+    .log__content{
+        gap: 10px;
+    }
+    .dload__tittle{
+        font-size: 20px;
+    }
+    .dload__form{
+        gap: 10px;
+    }
+    .dload__text{
+        font-size: 12px;
+    }
+    .profile_img{
+        width: 100px;
+        height: 100px;
+    }
+    .dload__btn span{
+        font-size: 10px;
+    }
+    .dload__btn{
+        background:  linear-gradient(270deg, rgba(104, 109, 224, 1),rgba(72, 52, 212, 1));
+        filter: drop-shadow(0px 4px 20px rgba(104, 109, 224, 0.5));
+    }
+}
+@media (max-width: 375px){
+    .container{
+        margin: 0px 30px;
+    }
+    .modal__content {
+        border-radius: 15px;
+    }
+    .log__form {
+        gap: 5px;
+    }
+    .btn{
+        font-size: 16px;
+        padding: 5px 40px;
+        margin-bottom: 20px;
+    }
+    .btn__log{
+        padding: 13px 50px;
+    }
+    .btn__reg{
+        padding: 13px 50px;
+    }
+    .reg__content{
+        gap: 10px;
+    }
+    .title{
+        font-size: 13px;
+    }
+    .reg__form{
+        gap: 5px;
+    }
+    .tel__content{
+        gap: 5px;
+    }
+    .tel__text{
+        font-size: 9px;
+    }
+    .tel__input{
+        padding: 8px 25px 8px 20px;
+        font-size: 9px;
+        background-size: 7px 7px;
+        background-position: left 10px center;
+    }
+    .form__password{
+        gap: 5px;
+        font-size: 9px;
+    }
+    .pass__text{
+        font-size: 9px;
+    }
+    .form__password{
+        gap: 5px;
+        font-size: 9px;
+    }
+    .pass__input,
+    .pass__input::after,
+    .pass__input::before
+    {
+        padding: 8px 25px 8px 20px;
+        font-size: 9px;
+        background-size: 7px 7px;
+        background-position: left 10px center;
+    }
+    .pass__input--error{
+        font-size: 7px;
+    }
+    .tel__input--error{
+        font-size: 7px;
+    }
+    .btn__submit{
+        font-size: 9px;
+    }
+    .show__cpass{
+        width: 10px;
+        height: 10px;
+        bottom: 10px;
+        right: 15px;
+        background-size: 10px 10px;
+    }
+    .show__pass{
+        width: 9px;
+        height: 9px;
+        bottom: 9px;
+        right: 15px;
+        background-size: 9px 9px;
+    }
+    .log__content{
+        gap: 10px;
+    }
+    .dload__tittle{
+        font-size: 18px;
+    }
+    .dload__text{
+        font-size: 10px;
+    }
+    .dload__btn span{
+        font-size: 10px;
+    }
+    .dload__btn{
+        background:  linear-gradient(270deg, rgba(104, 109, 224, 1),rgba(72, 52, 212, 1));
+        filter: drop-shadow(0px 4px 20px rgba(104, 109, 224, 0.5));
+    }
+}
+@media (max-width: 320px){
+    .container{
+        margin: 0px 20px;
+    }
+    .modal__content {
+        border-radius: 15px;
+    }
+    .modal__btn{
+        padding: 0px 7px;
+        font-size: 20px;
+    }
+    .log__form {
+        gap: 5px;
+    }
+    .btn{
+        font-size: 14px;
+        padding: 5px 40px;
+        margin-bottom: 20px;
+    }
+    .btn__log{
+        padding: 13px 50px;
+    }
+    .btn__reg{
+        padding: 13px 50px;
+    }
+    .reg__content{
+        gap: 10px;
+    }
+    .title{
+        font-size: 10px;
+    }
+    .reg__form{
+        gap: 5px;
+    }
+    .tel__content{
+        gap: 2px;
+    }
+    .tel__text{
+        font-size: 7px;
+    }
+    .tel__input{
+        padding: 8px 15px 8px 15px;
+        font-size: 6px;
+        background-size: 6px 6px;
+        background-position: left 6px center;
+    }
+    .form__password{
+        gap: 2px;
+        font-size: 6px;
+    }
+    .pass__text{
+        font-size: 7px;
+    }
+    .pass__input,
+    .pass__input::after,
+    .pass__input::before
+    {
+        padding: 8px 15px 8px 15px;
+        font-size: 6px;
+        background-size: 6px 6px;
+        background-position: left 6px center;
+    }
+    .pass__input--error{
+        font-size: 5px;
+    }
+    .tel__input--error{
+        font-size: 5px;
+    }
+    .btn__submit{
+        font-size: 6px;
+    }
+    .show__cpass{
+        width: 6px;
+        height: 6px;
+        bottom: 9px;
+        right: 10px;
+        background-size: 6px 6px;
+    }
+    .show__pass{
+        width: 6px;
+        height: 6px;
+        bottom: 9px;
+        right: 10px;
+        background-size: 6px 6px;
+    }
+    .log__content{
+        gap: 10px;
+    }
+    .dload__tittle{
+        font-size: 16px;
+    }
+    .dload__text{
+        font-size: 8px;
+    }
+    .dload__btn span{
+        font-size: 8px;
+    }
+    .dload__btn{
+        background:  linear-gradient(270deg, rgba(104, 109, 224, 1),rgba(72, 52, 212, 1));
+        filter: drop-shadow(0px 4px 20px rgba(104, 109, 224, 0.5));
+    }
+}

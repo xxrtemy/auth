@@ -1,0 +1,118 @@
+.reg__content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+
+}
+.title{
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+}
+.tel__content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.reg__form{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.tel__text{
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+}
+.tel__input{
+    padding: 15px 140px 15px 50px;
+    border-radius: 22.5px;
+    border: none;
+    background-image: url('../../assets/tel.svg');
+    background-position: left 20px center;
+    background-repeat: no-repeat;
+    background-size: 18px 18px;
+    font-weight: 700;
+    font-size: 30px;
+    color: #1E1E2E;
+}
+.tel__input--error{
+    color:crimson;
+    font-weight: 500;
+    margin: 0;
+    font-size: 20px;
+}
+.form__password{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 30px;
+}
+.pass__text{
+    color: white;
+    font-weight: 700;
+    font-size: 30px;
+}
+.pass__input,
+.pass__input::after,
+.pass__input::before
+{
+    padding: 15px 140px 15px 50px;
+    border: none;
+    border-radius: 22.5px;
+    background-image: url('../../assets/pass.svg');
+    background-position: left 20px center;
+    background-repeat: no-repeat;
+    background-size: 18px 18px;
+    font-size: 30px;
+}
+.pass__input--error{
+    color:crimson;
+    font-weight: 500;
+    margin: 0;
+    font-size: 23px;
+}
+.btn__submit{
+    background: linear-gradient(270deg, rgba(255, 197, 67, 1),rgba(255, 132, 18, 1));
+    margin-top: 20px;
+    font-size: 28px;
+}
+.btn__submit:disabled{
+    filter: grayscale(50%);
+}
+.error__content{
+    height: 25px;
+}
+.show__cpass{
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 25px;
+    bottom: 23px;
+    background-image: url('../../assets/showPass.svg');
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    filter: invert(50%);
+}
+.show__cpass.active{
+    filter: invert(0%);
+}
+.show__pass{
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 25px;
+    bottom: 23px;
+    background-image: url('../../assets/showPass.svg');
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    filter: invert(50%);
+}
+.show__pass.active{
+    filter: invert(0%);
+}
+

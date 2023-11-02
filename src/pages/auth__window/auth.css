@@ -1,0 +1,40 @@
+.content{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 650px;
+}
+.heading{
+    margin-bottom: 100px;
+    font-size: 40px;
+}
+.btn{
+    cursor: pointer;
+    font-size: 30px;
+    color: white;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+    border: none;
+    border-radius: 50px;
+    margin-bottom: 50px;
+    padding: 40px 100px;
+}
+.btn__log{
+    background: linear-gradient(270deg, rgba(255, 197, 67, 1),rgba(255, 132, 18, 1));
+    filter: drop-shadow(0px 4px 8px rgba(67, 41, 124, 0.25));
+    font-size: 30px;
+    padding: 35px 100px;
+}
+.btn__reg{
+    background: linear-gradient(270deg, rgba(104, 109, 224, 1),rgba(72, 52, 212, 1));
+    filter: drop-shadow(0px 4px 20px rgba(104, 109, 224, 0.5));
+    font-size: 30px;
+    padding: 35px 100px;
+}
